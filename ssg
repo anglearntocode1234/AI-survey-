@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Training Survey</title>
+</head>
+<body>
+    <h1>AI Training Survey</h1>
+    
+    <form>
+        <h3>Question 1:</h3>
+        <p>On a scale of 1 to 5, how would you rate the overall quality of the AI training session?</p>
+        <label>
+            <input type="radio" name="rating" value="1"> 1: Poor<br>
+            <input type="radio" name="rating" value="2"> 2: Below average<br>
+            <input type="radio" name="rating" value="3"> 3: Average<br>
+            <input type="radio" name="rating" value="4"> 4: Above average<br>
+            <input type="radio" name="rating" value="5"> 5: Excellent<br>
+        </label>
+
+        <h3>Question 2:</h3>
+        <p>What was the biggest takeaway from today's AI training session?</p>
+        <textarea name="takeaway" rows="4" cols="50"></textarea>
+
+        <h3>Question 3:</h3>
+        <p>What other training topics would you like to receive from SSG? Please list any specific areas of interest or mention if you would like more AI training.</p>
+        <textarea name="topics" rows="4" cols="50"></textarea>
+
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
